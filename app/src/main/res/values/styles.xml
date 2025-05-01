@@ -2,11 +2,12 @@
 <resources>
     <style name="TextLabel">
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textSize">@dimen/text_small</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="TextLabelBold" parent="TextLabel">
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_large</item>
     </style>
 </resources>

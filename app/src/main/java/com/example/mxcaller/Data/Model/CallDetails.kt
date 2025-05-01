@@ -5,5 +5,6 @@ data class CallDetails (
     val number: String,
     val date: String,
     val duration: String,
-    val type: String
+    val type: String,
+    val photoUri: String? = null
 )

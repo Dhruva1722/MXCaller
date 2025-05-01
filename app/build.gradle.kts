@@ -47,6 +47,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation ("com.airbnb.android:lottie:6.6.6")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
